@@ -2,8 +2,7 @@
 
 <p align="left">
   <b>Senior Tech Lead & Systems Architect</b> · 12+ Years Experience<br/>
-  Distributed Java 21 · Cloud Platforms (AWS / Azure) · Agentic AI & RAG · DevSecOps<br/>
-  📍 <b>Frankfurt am Main, Germany</b> <i>(German Chancenkarte — Immediate EU Employment Authorization)</i>
+  Distributed Java 21 · Cloud Platforms (AWS / Azure) · Agentic AI & RAG · DevSecOps
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ansh_Taneja-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-taneja-22b5a124/)
@@ -22,7 +21,6 @@ I am a Senior Tech Lead and Systems Architect with 12+ years of experience engin
 - 🚗 **Current Focus:** Senior Java Developer & Tech Lead at **Mercedes-Benz R&D** on **Guard360** — a connected-car telemetry platform processing millions of events per day under strict 99.8% uptime SLAs on Azure Kubernetes.
 - 🤖 **Agentic AI & LLMOps:** Pioneer of production-grade agentic architectures combining **Java 21**, **Spring AI**, **LangChain4j**, **MCP (Model Context Protocol)** servers, and **pgvector** hybrid RAG.
 - 🛡️ **Security-First Architecture:** Background in **M.Tech Cyber Security from IIT Kanpur** with 2 automotive patents filed in connected vehicle telemetry and security.
-- 🌍 **Relocation & Availability:** Based in Frankfurt am Main, Germany with immediate employment authorization (Chancenkarte). Open to Staff Engineer / Tech Lead / Platform Architect roles in Germany, the UK, and globally.
 
 ---
 
@@ -107,4 +105,3 @@ I am a Senior Tech Lead and Systems Architect with 12+ years of experience engin
 
 - **LinkedIn:** [linkedin.com/in/ansh-taneja-22b5a124](https://www.linkedin.com/in/ansh-taneja-22b5a124/)
 - **GitHub:** [github.com/Toansh](https://github.com/Toansh)
-- **Location:** Frankfurt am Main, Germany *(Eligible for immediate start)*
