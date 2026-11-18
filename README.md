@@ -1,38 +1,110 @@
 # Ansh Taneja
 
-**Senior Backend Engineer & Tech Lead** · 11 years on Java/Spring · cloud-native on Azure & AWS · based in Bengaluru, India
+<p align="left">
+  <b>Senior Tech Lead & Systems Architect</b> · 12+ Years Experience<br/>
+  Distributed Java 21 · Cloud Platforms (AWS / Azure) · Agentic AI & RAG · DevSecOps<br/>
+  📍 <b>Frankfurt am Main, Germany</b> <i>(German Chancenkarte — Immediate EU Employment Authorization)</i>
+</p>
 
-I work on large-scale backend systems — distributed services, microservices on Kubernetes, observability, and the messy operational reality of production at scale. Lately: exploring how agentic AI changes the way engineers ship software.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ansh_Taneja-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-taneja-22b5a124/)
+[![AWS Certified](https://img.shields.io/badge/AWS-Solutions_Architect-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#certifications)
+[![AZ-400](https://img.shields.io/badge/Azure-DevOps_Engineer_Expert-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](#certifications)
+[![AZ-204](https://img.shields.io/badge/Azure-Developer_Associate-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](#certifications)
+[![Patents](https://img.shields.io/badge/Patents-2_Filed_(Automotive_Cloud)-6f42c1?style=flat-square)](#patents)
+[![M.Tech](https://img.shields.io/badge/M.Tech-Cyber_Security_(IIT_Kanpur)-b31b1b?style=flat-square)](#education)
 
 ---
 
-## What I work with
+## 👨‍💻 About Me
 
-**Languages & Frameworks**
+I am a Senior Tech Lead and Systems Architect with 12+ years of experience engineering high-throughput, mission-critical distributed platforms across automotive, IoT, and enterprise cloud software.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=for-the-badge&logo=quarkus&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+- 🚗 **Current Focus:** Senior Java Developer & Tech Lead at **Mercedes-Benz R&D** on **Guard360** — a connected-car telemetry platform processing millions of events per day under strict 99.8% uptime SLAs on Azure Kubernetes.
+- 🤖 **Agentic AI & LLMOps:** Pioneer of production-grade agentic architectures combining **Java 21**, **Spring AI**, **LangChain4j**, **MCP (Model Context Protocol)** servers, and **pgvector** hybrid RAG.
+- 🛡️ **Security-First Architecture:** Background in **M.Tech Cyber Security from IIT Kanpur** with 2 automotive patents filed in connected vehicle telemetry and security.
+- 🌍 **Relocation & Availability:** Based in Frankfurt am Main, Germany with immediate employment authorization (Chancenkarte). Open to Staff Engineer / Tech Lead / Platform Architect roles in Germany, the UK, and globally.
 
-**Cloud & Infrastructure**
+---
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+## 🌟 Featured Production Architecture
 
-**Data & Observability**
+### 🚀 [spring-ai-mcp-agent](https://github.com/Toansh/spring-ai-mcp-agent)
+> **Production-grade Diagnostic Triage Agent built with Java 21, Spring AI, MCP, Claude API, and pgvector.**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+- **The Challenge (v1):** Direct streaming of raw vehicle telemetry into LLM context resulted in 180k+ token sessions, 4× cost explosions, and hallucinations on noisy sensor anomalies.
+- **The Solution (v2):** Re-engineered with a **deterministic SQL pre-aggregation layer**, schema-validated MCP endpoints, prompt caching, and an automated **LLM-as-judge evaluation harness**.
+- **Impact:**
+  - ⚡ **55% P50 Latency Reduction** (4.2s → 1.9s)
+  - 💰 **65% Token Cost Reduction** per triage session
+  - 🎯 **98.6% Root-Cause Accuracy** against a 200-scenario gold-standard dataset
 
-**CI/CD**
+---
 
+## 🛠️ Technical Competency
+
+### Core Languages & Enterprise Frameworks
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=for-the-badge&logo=quarkus&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### AI, LLMOps & Vector Retrieval
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![LangChain4j](https://img.shields.io/badge/LangChain4j-1C3C3C?style=for-the-badge&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API_(Anthropic)-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol_(MCP)-4A154B?style=for-the-badge&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector_(HNSW)-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+
+### Cloud Infrastructure & GitOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes_(EKS/AKS)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm_3-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Observability, Data & DevSecOps
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![HashiCorp Vault](https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**Microsoft Azure Certifications:** AZ-900 · AZ-204 · AZ-400 (DevOps Engineer Expert)
+---
 
-## How I think about engineering
+## 🏆 Certifications & Education
 
-- **Observability is part of done.** Metrics, logs, and traces are first-class deliverables. If it can't be measured in prod, it isn't shipped.
-- **Boring tech wins.** I optimize for what an oncall engineer can debug at 3am, not for what looks clever in a slide.
-- **Security is a design constraint, not a checklist.** OWASP, secrets handling, and least-privilege belong in the design review, not the audit.
-- **Cloud-native means cattle, not pets.** If a service can't be recreated by a CI run, it shouldn't be running.
+<a name="certifications"></a>
+### Industry Certifications
+- **AWS Certified Solutions Architect – Associate** (Amazon Web Services)
+- **Microsoft Certified: DevOps Engineer Expert** (AZ-400)
+- **Microsoft Certified: Azure Developer Associate** (AZ-204)
+- **Microsoft Certified: Azure Fundamentals** (AZ-900)
 
-## Reach me
+<a name="education"></a>
+### Education & Patents
+- **M.Tech in Cyber Security** — *Indian Institute of Technology (IIT) Kanpur*
+- **B.Tech in Computer Science** — *Visvesvaraya Technological University (VTU)*
+- <a name="patents"></a>**2 Automotive Cloud & Telemetry Patents Filed** (Mercedes-Benz R&D)
 
-[LinkedIn — Ansh Taneja](https://www.linkedin.com/in/ansh-taneja-22b5a124/)
+---
+
+## 💡 Engineering Philosophy
+
+1. **LLMs reason; databases aggregate.** Don't spend token budgets doing in-context data engineering that a PostgreSQL query or streaming filter does in 20ms for free.
+2. **Observability is part of 'Definition of Done'.** OpenTelemetry spans, metrics, and structured logs are first-class architecture deliverables. If it can't be debugged at 3 AM via Grafana, it shouldn't be in production.
+3. **Security is a design constraint, not a compliance checkbox.** With a background from IIT Kanpur Cyber Security, zero-trust, automated dependency audits (OWASP), and least-privilege RBAC are built into every microservice by default.
+4. **Cloud-native means disposable infrastructure.** Declarative GitOps, immutable Docker images, and automated CI/CD pipelines cut deployment friction and operational toil.
+
+---
+
+## 📬 Connect
+
+- **LinkedIn:** [linkedin.com/in/ansh-taneja-22b5a124](https://www.linkedin.com/in/ansh-taneja-22b5a124/)
+- **GitHub:** [github.com/Toansh](https://github.com/Toansh)
+- **Location:** Frankfurt am Main, Germany *(Eligible for immediate start)*
