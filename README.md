@@ -36,6 +36,14 @@ I am a Senior Tech Lead and Systems Architect with 12+ years of experience engin
   - 💰 **65% Token Cost Reduction** per triage session
   - 🎯 **98.6% Root-Cause Accuracy** against a 200-scenario gold-standard dataset
 
+### ☸️ [k8s-mlops-platform](https://github.com/Toansh/k8s-mlops-platform)
+> **Production Kubernetes MLOps platform featuring Terraform EKS, Helm 3, ArgoCD GitOps, FastAPI serving with custom HPA, and statistical drift detection.**
+
+- **GitOps Control Plane:** Declarative ArgoCD App-of-Apps pattern managing multi-tenant namespaces (`mlops-infra`, `mlops-serving`, `mlops-monitoring`) with zero configuration drift.
+- **High-Throughput Serving:** Sub-15ms P99 latency FastAPI inference runtime autoscaling via Prometheus custom metrics (`http_requests_per_second`).
+- **Autonomous Drift Governance:** Automated Kolmogorov-Smirnov (KS) test ($p < 0.05$) and Population Stability Index (PSI $\ge 0.20$) CronJob alerting on covariate and concept drift.
+- **Zero-Trust Security:** Default-deny NetworkPolicies, non-root containers, and IRSA least-privilege cloud IAM.
+
 ---
 
 ## 🛠️ Technical Competency
