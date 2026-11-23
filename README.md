@@ -44,6 +44,14 @@ I am a Senior Tech Lead and Systems Architect with 12+ years of experience engin
 - **Autonomous Drift Governance:** Automated Kolmogorov-Smirnov (KS) test ($p < 0.05$) and Population Stability Index (PSI $\ge 0.20$) CronJob alerting on covariate and concept drift.
 - **Zero-Trust Security:** Default-deny NetworkPolicies, non-root containers, and IRSA least-privilege cloud IAM.
 
+### ☕ [cloud-native-java-blueprint](https://github.com/Toansh/cloud-native-java-blueprint)
+> **Production-grade Spring Boot 3.3 & Java 21 enterprise microservices blueprint demonstrating the Transactional Outbox Pattern, Apache Kafka, and Testcontainers.**
+
+- **Dual-Write Mitigation:** Atomic local ACID persistence coupling domain state mutations with outbox events, guaranteeing zero event loss under crash failure.
+- **High-Throughput Outbox Relay:** Background worker with pessimistic row-level locking dispatching at 3,500+ ops/sec with <70ms relay lag.
+- **Observability & Fault Tolerance:** Full W3C TraceContext propagation across HTTP and Kafka headers via OpenTelemetry, paired with Resilience4j circuit breaking.
+- **Production Testing:** End-to-end integration test suite running on live PostgreSQL 16 and Kafka KRaft Testcontainers.
+
 ---
 
 ## 🛠️ Technical Competency
